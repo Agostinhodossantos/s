@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/cardview_id"
+        android:clickable="true"
+         android:focusable="true"
+        android:layout_margin="4dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_width="wrap_content"
+        cardview:cardBackgroundColor="@android:color/white"
+        android:padding="2dp"
+        android:layout_height="wrap_content"
+        xmlns:cardview="http://schemas.android.com/apk/res-auto"
+        cardview:cardCornerRadius="3dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img_produto_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/text_big"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@android:color/darker_gray"
+                android:layout_height="0.5dp">
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/tv_preco_id"
+                        android:textStyle="bold"
+                        android:text=""
+                        android:textSize="11sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_alignParentEnd="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:alpha="0.5"
+                            android:contentDescription=""
+                            android:src="@drawable/ic_place_black_24dp"/>
+
+                        <TextView
+                            android:id="@+id/tv_localizacao"
+                            android:layout_gravity="end"
+                            android:text=""
+                            android:layout_marginLeft="1dp"
+                            android:textSize="10sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:padding="4dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/tv_nome_id"
+                        android:layout_width="wrap_content"
+                        android:maxLength="80"
+                        android:textSize="12sp"
+                        android:text=""
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:alpha="0.7"
+                        android:src="@drawable/ic_access_time_black_24dp">
+                    </ImageView>
+                    <TextView
+                        android:id="@+id/tv_tempo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:alpha="0.7"
+                        android:layout_gravity="center"
+                        android:textSize="10sp"
+                        android:text=""/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+

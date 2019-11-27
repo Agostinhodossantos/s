@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "846364230399",
+    "firebase_url": "https://smartshop-cbb9e.firebaseio.com",
+    "project_id": "smartshop-cbb9e",
+    "storage_bucket": "smartshop-cbb9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846364230399:android:fc904600ad59a89b",
+        "android_client_info": {
+          "package_name": "smartshop.co.mz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846364230399-t486c5r1mfih61qeqj54oah84t6n9ba5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "smartshop.co.mz",
+            "certificate_hash": "dd78c3e9df834fae4bac9ebf5922f8a357d7435d"
+          }
+        },
+        {
+          "client_id": "846364230399-45h32ve585shh0bivuu0rah18mv3jm88.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "smartshop.co.mz",
+            "certificate_hash": "a8a1a4dac8c81188e92226ac749129f6c7a9464d"
+          }
+        },
+        {
+          "client_id": "846364230399-0vhih4ibleqnaaaduf0eof75h4vlclvl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwOcjPky1cmEKbAw1PjI-lw0dqN9LBPVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846364230399-0vhih4ibleqnaaaduf0eof75h4vlclvl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

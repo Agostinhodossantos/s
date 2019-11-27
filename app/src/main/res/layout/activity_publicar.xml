@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="smartshop.co.mz.publicar.Publicar">
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:background="@color/colorPrimary"
+       android:layout_height="60dp">
+
+      <Button
+          android:id="@+id/btn_publicar"
+          android:layout_width="150dp"
+          android:layout_height="wrap_content"
+          android:textSize="16sp"
+          android:textAllCaps="false"
+          android:text="Publicar"
+          android:layout_centerVertical="true"
+          android:layout_margin="10dp"
+          android:background="@drawable/bg_pesquisar"
+          />
+
+      <TextView
+          android:id="@+id/user_nome"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/app_name"
+          android:layout_alignParentEnd="true"
+          android:textStyle="bold"
+          android:layout_centerVertical="true"
+          android:layout_margin="10dp"
+          />
+
+   </RelativeLayout>
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+      <LinearLayout
+          android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+         <LinearLayout
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="60dp"
+                   android:layout_marginTop="40dp"
+                   android:orientation="horizontal">
+
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:orientation="vertical">
+
+
+                     <TextView
+                         android:id="@+id/tv_publicacoes"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_gravity="center"
+                         android:text=""
+                         android:textColor="@color/colorAccent1"
+                         android:textSize="18sp"
+                         android:textStyle="bold" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_gravity="center"
+                         android:text="@string/publicacoes"
+
+                         />
+
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:orientation="vertical">
+
+
+                     <TextView
+                         android:id="@+id/tv_visitas"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_gravity="center"
+                         android:text="0"
+                         android:textColor="@color/colorAccent1"
+                         android:textSize="18sp"
+                         android:textStyle="bold" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_gravity="center"
+                         android:text="Visitas"
+
+                         />
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:orientation="vertical">
+
+
+                     <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent"
+                         android:layout_weight="1"
+                         android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/tv_contactos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/colorAccent1"
+                            android:textSize="18sp"
+                            android:text="0"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Contactos"
+
+                            />
+
+                     </LinearLayout>
+                  </LinearLayout>
+
+
+               </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Minhas publicações"
+                   android:layout_centerInParent="true"
+                   android:layout_marginTop="40dp"
+                   android:layout_gravity="center_horizontal"
+                   />
+            </RelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_publicacoes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+         </LinearLayout>
+      </LinearLayout>
+   </ScrollView>
+</LinearLayout>

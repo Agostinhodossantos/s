@@ -1,0 +1,726 @@
+<resources>
+    <string name="app_name">Smart shop</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">2699764026779212</string>
+    <string name="fb_login_protocol_scheme">fb2699764026779212</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="publicacoes">publicações</string>
+    <string name="titulo_do_anucio">Titulo do anúncio</string>
+    <string name="preco">preco</string>
+    <string name="cor">Cor</string>
+    <string name="contacto">Contacto</string>
+    <string name="marca">Marca</string>
+    <string name="bairro">Bairro</string>
+    <string name="text_big">Na tela da figura anterior, basta clicarmos no botão “Install” para instalarmos o Android Studio em nosso computador. Vejamos o resultado na figura seguinte</string>
+    <string name="donativo">Donativo</string>
+    <string name="ajuda_nos">Ajuda nos</string>
+    <string name="sobre">Sobre</string>
+    <string name="compartilhar">Compartilhar</string>
+    <string name="cadastre_se">Cadastre-se</string>
+    <string name="termos_e_condicoes_de_uso">Termos e condições de uso</string>
+    <string name="ajuda_nos_a_melhorar_o_aplicativo">Ajuda nos a melhorar o aplicativo</string>
+    <string name="a">as</string>
+    <string name="mais_produtos">Mais Produtos</string>
+    <string name="ver_mais_detalhes">ver mais detalhes</string>
+    <string name="ligar">Ligar</string>
+    <string name="enviar_mensagem">Enviar Mensagem</string>
+    <string name="descricao_do_anucio">Descricao do anúncio</string>
+    <string name="localizacao">localização</string>
+    <string name="selecione_a_sua_localizacao">Selecione a sua localização </string>
+    <string name="selecionar_preco">Selecionar preco</string>
+
+
+    <string-array name="provincias">
+        <item>Maputo</item>
+        <item>Gaza</item>
+        <item>Inhambane</item>
+        <item>Sofala</item>
+        <item>Manica</item>
+        <item>Tete</item>
+        <item>Zambezia</item>
+        <item>Nampula</item>
+        <item>Niassa</item>
+        <item>Cabo Delgado</item>
+
+    </string-array>
+
+
+    <string-array name="distrito_maputo">
+        <item>Boane </item>
+        <item>Magude</item>
+        <item>Manhiça</item>
+        <item>Marracuene</item>
+        <item>Matola</item>
+        <item>Matutuíne</item>
+        <item>Moamba</item>
+        <item>Namaacha</item>
+    </string-array>
+
+    <string-array name="distrito_gaza">
+        <item>Bilene </item>
+        <item>Chibuto</item>
+        <item>Chicualacuala</item>
+        <item>Chigubo </item>
+        <item>Chókwè</item>
+        <item>Chonguene</item>
+        <item>Guijá</item>
+        <item>Limpopo</item>
+        <item>Mabalane</item>
+        <item>Manjacaze</item>
+        <item>Mapai</item>
+        <item>Massangena </item>
+        <item>Massingir</item>
+        <item>Xai-Xai</item>
+    </string-array>
+
+    <string-array name="distrito_inhambane">
+        <item>Funahlouro</item>
+        <item>Govuro</item>
+        <item>Homoíne</item>
+        <item>Inhassoro</item>
+        <item>Jangamo</item>
+        <item>Mabote</item>
+        <item>Massinga</item>
+        <item>Maxixe</item>
+        <item>Morrumbene</item>
+        <item>Panda</item>
+        <item>Vilanculos</item>
+        <item>Zavala</item>
+    </string-array>
+
+
+    <string-array name="distrito_manica">
+        <item>Bárue</item>
+        <item>Gondola </item>
+        <item>Guro</item>
+        <item>Macate</item>
+        <item>Machaze</item>
+        <item>Macossa</item>
+        <item>Manica</item>
+        <item>Mossurize</item>
+        <item>Sussundenga</item>
+        <item>Tambara</item>
+        <item>Vanduzi</item>
+
+    </string-array>
+
+    <string-array name="distrito_tete">
+        <item>Angónia</item>
+        <item>Cahora-Bassa</item>
+        <item>Changara</item>
+        <item>Chifunde</item>
+        <item>Chiuta</item>
+        <item>Dôa</item>
+        <item>Macanga</item>
+        <item>Magoé</item>
+        <item>Marara</item>
+        <item>Marávia</item>
+        <item>Moatize</item>
+        <item>Mutarara</item>
+        <item>Tete</item>
+        <item>Tsangano</item>
+        <item>Zumbo</item>
+    </string-array>
+
+    <string-array name="distrito_sofala">
+        <item>Beira</item>
+        <item>Búzi</item>
+        <item>Caia</item>
+        <item>Chemba</item>
+        <item>Cheringoma</item>
+        <item>Chibabava</item>
+        <item>Dondo</item>
+        <item>Machanga</item>
+        <item>Maringué</item>
+        <item>Marromeu</item>
+        <item>Muanza</item>
+        <item>Nhamatanda</item>
+    </string-array>
+
+    <string-array name="distrito_zambezia">
+        <item>Alto Molócue</item>
+        <item>Chinde</item>
+        <item>Derre</item>
+        <item>Gilé</item>
+        <item>Gurué</item>
+        <item>Ile</item>
+        <item>Inhassunge</item>
+        <item>Luabo</item>
+        <item>Lugela</item>
+        <item>Maganja da Costa</item>
+        <item>Milange</item>
+        <item>Mocuba</item>
+        <item>Mocubela</item>
+        <item>Molumbo</item>
+        <item>Mopeia</item>
+        <item>Morrumbala</item>
+        <item>Mulevala</item>
+        <item>Namarroi</item>
+        <item>Nicoadala</item>
+        <item>Namacurra</item>
+        <item>Pebane</item>
+        <item>Quelimane</item>
+    </string-array>
+
+
+    <string-array name="distrito_nampula">
+        <item>Angoche</item>
+        <item>Eráti</item>
+        <item>Ilha de Moçambique</item>
+        <item>Lalaua</item>
+        <item>Larde</item>
+        <item>Liúpo</item>
+        <item>Malema</item>
+        <item>Meconta</item>
+        <item>Mecubúri</item>
+        <item>Memba</item>
+        <item>Mogincual</item>
+        <item>Mogovolas</item>
+        <item>Moma</item>
+        <item>Monapo</item>
+        <item>Mossuril</item>
+        <item>Muecate</item>
+        <item>Murrupula</item>
+        <item>Nacala-a-Velha</item>
+        <item>Nacarôa</item>
+        <item>Nampula</item>
+        <item>Rapale</item>
+        <item>Ribaué</item>
+    </string-array>
+
+    <string-array name="distrito_niassa">
+        <item>Chimbonila</item>
+        <item>Cuamba</item>
+        <item>Lago</item>
+        <item>Lichinga</item>
+        <item>Majune</item>
+        <item>Matutuíne</item>
+        <item>Mandimba</item>
+        <item>Marrupa</item>
+        <item>Maúa</item>
+        <item>Mavago</item>
+        <item>Marrupa</item>
+        <item>Mecula</item>
+        <item>Metarica</item>
+        <item>Muembe</item>
+        <item>Ngauma</item>
+        <item>Nipepe</item>
+        <item>Sanga</item>
+    </string-array>
+
+    <string-array name="distrito_cabo_delgado">
+        <item>Ancuabe</item>
+        <item>Balama</item>
+        <item>Chiúre</item>
+        <item>Ibo</item>
+        <item>Mecufi</item>
+        <item>Meluco</item>
+        <item>Metuge</item>
+        <item>Mocímboa da Praia</item>
+        <item>Montepuez</item>
+        <item>Mueda </item>
+        <item>Muidumbe</item>
+        <item>Namuno</item>
+        <item>Nangade</item>
+        <item>Palma</item>
+        <item>Quissanga</item>
+    </string-array>
+
+    <string-array name="categorias_de_produtos">
+        <item>Acessórios para veículos</item>
+        <item>Agro , Indústria e Comércio</item>
+        <item>Alimentos e Bebida</item>
+        <item>Animais</item>
+        <item>Antiguidade e Colecções</item>
+        <item>Arte , Papelaria e Armarinho</item>
+        <item>Bebés</item>
+        <item>Beleza e cuidado pessoal</item>
+        <item>Brinquedos e Hobbies</item>
+        <item>Calçados ,Roupa e Bolsas</item>
+        <item>Casa , Moveis e Decoração</item>
+        <item>Carros, Motos e Outros</item>
+        <item>Telfones e Tablets</item>
+        <item>Câmaras e Acessórios</item>
+        <item>Electrodomésticos</item>
+        <item>Electrónicos , Áudio e Vídeos</item>
+        <item>Esporte e Fitness</item>
+        <item>Ferramentas e Construção</item>
+        <item>Festas</item>
+        <item>Games</item>
+        <item>Imóveis</item>
+        <item>Informática</item>
+        <item>Ingressos</item>
+        <item>Instrumentos Musicais</item>
+        <item>Jóias e Relógios</item>
+        <item>Livros, Revistas e Comics</item>
+        <item>Música ,Filmes e Seriados</item>
+        <item>Animais</item>
+        <item>Saúde</item>
+        <item>Serviços</item>
+
+    </string-array>
+    //sub_categoria_acessorios_para_veiculos//
+    <string-array name="sub_categoria_acessorios_para_veiculos">
+        <item>Aces de Carros e Caminhonetes</item>
+        <item>Aces de Motos e Quadriciclos</item>
+        <item>Aces e Peças para Camiões</item>
+        <item>Acessórios e Peças Náuticos</item>
+        <item>Ferramentas</item>
+        <item>GNV</item>
+        <item>Limpeza Automotivo</item>
+        <item>Navegadores GPS</item>
+        <item>Peças de Carros e Caminhonetes</item>
+        <item>Peças de Maquinaria Pesada</item>
+        <item>Peças de Motos e Quadriciclos</item>
+        <item>Perfomance</item>
+        <item>Pneus</item>
+        <item>Rodas</item>
+        <item>Segurança Veicular</item>
+        <item>Serviços Programados</item>
+        <item>Som Automotivo</item>
+        <item>Tuning</item>
+        <item>Outros</item>
+    </string-array>
+    <string-array name="sub_categoria_angro_industria">
+        <item>Arquitectura e Desenho</item>
+        <item>Embalagem</item>
+        <item>Equipamento Comercial</item>
+        <item>Equipamento de Segurança</item>
+        <item>Equipamento para escritórios</item>
+        <item>Equipamento para Indústrias</item>
+        <item>Indústria Agropecuaria</item>
+        <item>Indústria Gráfica e Impressão</item>
+        <item>Indústria Têxtil</item>
+        <item>Material de Promoção</item>
+        <item>Uniformes</item>
+        <item>Outros</item>
+    </string-array>
+    <string-array name="sub_categoria_alimentos_bebidas">
+        <item>Bebidas</item>
+        <item>Comestíveis</item>
+        <item>Comida Preparada e Catering</item>
+        <item>Frescos</item>
+        <item>Outros</item>
+    </string-array>
+
+    <string-array name="sub_categoria_animais">
+        <item>Anifibios e Répteis</item>
+        <item>Aveiro  e Acessórios</item>
+        <item>Cachorros</item>
+        <item>Cavalos</item>
+        <item>Coelhos</item>
+        <item>Gatos</item>
+        <item>Insectos</item>
+        <item>Peixes</item>
+        <item>Roedores</item>
+        <item>Outros</item>
+    </string-array>
+
+
+    <string-array name="sub_categoria_antiguidades">
+        <item>Antiguidades</item>
+        <item>Cédulas e Moedas</item>
+        <item>Colecionaveis e Esportes</item>
+        <item>Esculturas</item>
+        <item>Filatelia</item>
+        <item>Milateria e Afins</item>
+        <item>Posteres</item>
+        <item>Outras Antiguidades</item>
+    </string-array>
+
+    <string-array name="sub_categorias_artes_papelaria">
+        <item>Arte</item>
+        <item>Artigos de Armarinho</item>
+        <item>Espelhos de Mosaico</item>
+        <item>Formas para sabonetes</item>
+        <item>Insumos para Fazer velas</item>
+        <item>Materiais Escolares</item>
+        <item>Peças para Chaveiros</item>
+        <item>Outros</item>
+    </string-array>
+
+    <string-array name="sub_categorias_bebes">
+
+        <item>Alimentação para Bebé</item>
+        <item>Andadores e Mini veículos</item>
+        <item>Artigos de Bebé para banho</item>
+        <item>Artigos de Maternidade</item>
+        <item>Brinquedos para Bebés</item>
+        <item>Cercadinho</item>
+        <item>Chupetas e Mordedores</item>
+        <item>Higiene e Cuidados com o bebé</item>
+        <item>Passeio do Bebé</item>
+        <item>Roupas de Bebé</item>
+        <item>Saúde de Bebé</item>
+        <item>Segurança para Bebé</item>
+        <item>Outros</item>
+    </string-array>
+
+
+    <string-array name="sub_categoria_beleza_quidados_pessoais">
+        <item>Artigos para Cabeleireiros</item>
+        <item>Barbearia</item>
+        <item>Cuidados com a Pele</item>
+        <item>Cuidados com o Cabelo</item>
+        <item>Depilação</item>
+        <item>Electrodomésticos e Beleza</item>
+        <item>Farmácia</item>
+        <item>Higiene Pessoal</item>
+        <item>Manicure e Pedicure</item>
+        <item>Maquiagem</item>
+        <item>Perfumes</item>
+        <item>Splash Corporal</item>
+        <item>Tratamentos de Beleza</item>
+        <item>Outros</item>
+    </string-array>
+
+    <string-array name="sub_categoria_brinquedos_hobies">
+        <item>Albuns e Figurinhas</item>
+        <item>Anti-stress e Engenho</item>
+        <item>Ar Livre e Playground</item>
+        <item>Blocos e Construção</item>
+        <item>Bonecos e Bonecas</item>
+        <item>Brinquedos de Agua e Praia</item>
+        <item>Brinquedos de Pegadinhas</item>
+        <item>Brinquedos de Profissões</item>
+        <item>Brinquedos para Bebes</item>
+        <item>Casinhas e Barracas</item>
+        <item>Desenho, Pintura e Artesanatos</item>
+        <item>Fontoches e Marionetas</item>
+        <item>Hobbies</item>
+        <item>Instrumentos Musicais</item>
+        <item>Jogos de Salão</item>
+        <item>Jogos de Tabuleiro e Cartas</item>
+        <item>Jogos Eletronicos</item>
+        <item>Lancadores de Brinquedo</item>
+        <item>Mesas e Cadeiras</item>
+        <item>Mini Veiculos e Bicicletas</item>
+        <item>Patins e Patinetes</item>
+        <item>Pelucias</item>
+        <item>Pescinas e Inflaveis</item>
+        <item>Upa Upa</item>
+        <item>Veiculos de Brinquedo</item>
+        <item>Outros</item>
+
+    </string-array>
+
+    <string-array name="sub_categoria_calcados_roupa">
+
+        <item>Acessórios da Moda</item>
+        <item>Begagem e Bolsas</item>
+        <item>Bermudas e Shorts</item>
+        <item>Blusas</item>
+        <item>Calcas</item>
+        <item>Camisas</item>
+        <item>Camisetas</item>
+        <item>Camisolas e Moletons</item>
+        <item>Casacos</item>
+        <item>Leggings</item>
+        <item>Lotes de Roupa</item>
+        <item>Macacão</item>
+        <item>Moda Fitness</item>
+        <item>Moda Íntima e Lingerie</item>
+        <item>Moda Praia</item>
+        <item>Roupa de Dança</item>
+        <item>Roupa para Bebés</item>
+        <item>Saías</item>
+        <item>Sapatos</item>
+        <item>Sueteres, Cardigans e Coletes</item>
+        <item>Ternos</item>
+        <item>Uniformes</item>
+        <item>Vestidos</item>
+        <item>Outros</item>
+    </string-array>
+    <string-array name="subcategoria_casas_decoracao">
+        <item>Banheiros</item>
+        <item>Colchoes e Camas Box</item>
+        <item>Cortinas e Acessórios</item>
+        <item>Cuidados de Casa e Lavandaria</item>
+        <item>Enfeites e Decoração de Casa</item>
+        <item>Iluminação Residecial</item>
+        <item>Jardins e Exteriores</item>
+        <item>Móveis para Casa</item>
+        <item>Organização para Casa</item>
+        <item>Segurança para Casa</item>
+        <item>Têxteis de Casa e Decoração</item>
+        <item>Utilidades Domésticas</item>
+        <item>Outros</item>
+    </string-array>
+
+    <string-array name="sub_categoria_telfones_tables">
+        <item> Acessórios para Celulares</item>
+        <item> Telfones e Tablets</item>
+        <item> Óculos de Realidade Virtual</item>
+        <item> Peças para Celular</item>
+        <item> Smartwatches e Acessórios</item>
+        <item> Telefonia Fixa e Sem Fio</item>
+        <item> VoIp</item>
+        <item> Walkie Talkies</item>
+        <item> Outros</item>
+    </string-array>
+
+    <string-array name="sub_categorias_cameras_acessorios">
+        <item>Acessórios para cameras</item>
+        <item>Albuns e Porta-retratos</item>
+        <item>Cabos</item>
+        <item>Cameras</item>
+        <item>Drones e Acessorios</item>
+        <item>Equipamentos de Revelacao</item>
+        <item>Filmadoras</item>
+        <item>Instrumentos Ópticos</item>
+        <item>Lentes e Filtros</item>
+        <item>Peças para Cameras</item>
+        <item>Outros</item>
+    </string-array>
+
+    <string-array name="sub_categoria_eletrodomesticos">
+        <item>Ar e Ventilação</item>
+        <item>Bebedores e Purificadores</item>
+        <item>Cuidado pessoal</item>
+        <item>Forno e Fogões</item>
+        <item>Geladeiras e Freezers</item>
+        <item>Lavadores</item>
+        <item>Pecas e Acessórios</item>
+        <item>Pequenos Eletrodomesticos</item>
+        <item>Outros</item>
+
+    </string-array>
+
+    <string-array name="sub_categoria_eletronicos">
+        <item>Acessórios para Áudio e Video</item>
+        <item>Aparelhos DVD e Bluray</item>
+        <item>Áudio</item>
+        <item>Bolsas e Estojos</item>
+        <item>Cabos</item>
+        <item>Controles Remotos</item>
+        <item>Drones e Acessórios</item>
+        <item>Media Streaming</item>
+        <item>Pecas e Componetes Eletricos</item>
+        <item>Peças para Tv</item>
+        <item>Pilhas e Carregadores</item>
+        <item>Projetores e Telas</item>
+        <item>TV</item>
+        <item>Outros Eletronicos</item>
+    </string-array>
+
+    <string-array name="sub_categoria_esporte_fitness">
+        <item>Artes Marccias e Boxe</item>
+        <item>Badminton</item>
+        <item>Baseball</item>
+        <item>Basquete</item>
+        <item>Camping , Caca e Pesca</item>
+        <item>Canoas , Caiques e Inflaveis</item>
+        <item>Ciclismo</item>
+        <item>Equitação</item>
+        <item>Esgrima</item>
+        <item>Esqui e Snowboard</item>
+        <item>Fitness e Musculacao</item>
+        <item>Futebol</item>
+        <item>Futebol Americano</item>
+        <item>Golfe</item>
+        <item>Handebol</item>
+        <item>Hockey</item>
+        <item>Jogos de salao</item>
+        <item>Kitesurf</item>
+        <item>Mergulho</item>
+        <item>Moda Fitness</item>
+        <item>Monitores e Relogios</item>
+        <item>Natação</item>
+        <item>Paintball</item>
+        <item>Parapente</item>
+        <item>Patin ,Ginastica e Danca</item>
+        <item>Patinetes e Scooters</item>
+        <item>Pilates e Yoga</item>
+        <item>Rapel, Montanhisco e Escalada</item>
+        <item>Rugby</item>
+        <item>Skateboard e Sandboard</item>
+        <item>Slackline</item>
+        <item>Suplementos e Shakers</item>
+        <item>Surf e Bodyboard</item>
+        <item>Tenis e Squash</item>
+        <item>Volei</item>
+        <item>Wakeboard</item>
+        <item>Windsurfe</item>
+        <item>Outros</item>
+    </string-array>
+
+    <string-array name="sub_categoria_ferramentas_e_construcao">
+        <item>Aberturas</item>
+        <item>Construção</item>
+        <item>Encanamento</item>
+        <item>Energia Eletrica</item>
+        <item>Ferramentas</item>
+        <item>Loja de Tintas</item>
+        <item>Mobiliário para Banheiros</item>
+        <item>Mobiliário para Cozinhas</item>
+        <item>Pisos e Rejuntes</item>
+        <item>Outros</item>
+    </string-array>
+
+    <string-array name="sub_categoria_festas">
+        <item>Artigos para festas</item>
+        <item>Convites</item>
+        <item>Decoração de Festa</item>
+        <item>Descartáveis para Festas</item>
+        <item>Espuma, Serpentinas e Confete</item>
+        <item>Fantasias</item>
+        <item>Kits Imprimiveis para Festas</item>
+        <item>Lembrancinhas</item>
+        <item>Plaquinhas para Festas</item>
+        <item>Outros</item>
+    </string-array>
+
+    <string-array name="sub_categoria_games">
+        <item>Acessórios para Consolas</item>
+        <item>Consolas</item>
+        <item>Fliperamas e Arcades</item>
+        <item>Pecas para Consolas</item>
+        <item>Video Games</item>
+        <item>Outros</item>
+    </string-array>
+
+    <string-array name="sub_categoria_informatica">
+        <item>Acessórios de Antiestatica</item>
+        <item>Armazenamento</item>
+        <item>Cabos e Hubs USB</item>
+        <item>Componentes para PC</item>
+        <item>Conectividade e Redes</item>
+        <item>Estabilizadores e No Breaks</item>
+        <item>Impressão</item>
+        <item>Leitores e Scanners</item>
+        <item>Limpesa de PCs</item>
+        <item>Monitores e Acessórios</item>
+        <item>Mouses, Teclados e Controles</item>
+        <item>Palms e Handhelds</item>
+        <item>Computador</item>
+        <item>Laptop</item>
+        <item>Porta CDs , Caixas Envelopes</item>
+        <item>Portateis e Acessorios</item>
+        <item>Projectores  e Telas</item>
+        <item>Software</item>
+        <item>Tables e Acessórios</item>
+        <item>Webcams e Áudio para PC</item>
+        <item>Outros</item>
+    </string-array>
+
+    <string-array name="sub_categoria_ingressos">
+        <item>Eventos Esportivos</item>
+        <item>Exposição</item>
+        <item>Ingressos</item>
+        <item>Shows</item>
+        <item>Teatro e Cultura</item>
+        <item>Outros Ingressos</item>
+    </string-array>
+
+    <string-array name="sub_categoria_instrumentos_musicais">
+        <item>Baterias e Percussão</item>
+        <item>Caixas de Som</item>
+        <item>Equipamentos para DJ</item>
+        <item>Estudio de Gravação</item>
+        <item>Intrumentos de Corda</item>
+        <item>Instrumentos de Sopro</item>
+        <item>Metronomos</item>
+        <item>Microfones e Amplificadores</item>
+        <item>Partituras e Letras</item>
+        <item>Pedais e Acessórios</item>
+        <item>Piano e Teclados</item>
+        <item>Outros</item>
+    </string-array>
+
+    <string-array name="sub_categoria_joias">
+        <item>Acessórios Para Relogios</item>
+        <item>Artigos de Joalharia</item>
+        <item>Canetas e Lapiseiras de luxo</item>
+        <item>Jóias e Bijuterias</item>
+        <item>Monitores e Cronómetros</item>
+        <item>Pedras preciosas</item>
+        <item>Piercings</item>
+        <item>Porta Jóias</item>
+        <item>Relógios</item>
+        <item>Smartwatches</item>
+        <item>Outros</item>
+    </string-array>
+
+    <string-array name="sub_categoria_livros_revistas">
+        <item>Catalogos</item>
+        <item>HQs</item>
+        <item>Livros</item>
+        <item>Mangá</item>
+        <item>Revistas</item>
+        <item>Outros</item>
+    </string-array>
+
+    <string-array name="sub_categoria_musica_filmes">
+        <item>Filmes</item>
+        <item>Músicas</item>
+        <item>Seriados</item>
+        <item>Outros</item>
+    </string-array>
+
+    <string-array name="sub_categoria_saude">
+        <item>Cuidado da Saúde</item>
+        <item>Equipamento Médico</item>
+        <item>Massagem</item>
+        <item>Mobilidade</item>
+        <item>Ortopedia</item>
+        <item>Sumplementos Alimentares</item>
+        <item>Terapias Alternativas</item>
+        <item>Outros</item>
+    </string-array>
+
+    <string-array name="sub_categorias_imoeis">
+        <item>Apartamentos</item>
+        <item>Casas</item>
+        <item>Terrenos</item>
+        <item>Chacaras</item>
+        <item>Salas Comercias</item>
+    </string-array>
+
+    <string-array name="sub_categoria_servicos">
+        <item>Académica e Esporte</item>
+        <item>Animais</item>
+        <item>Beleza , Estética e Bem Estar</item>
+        <item>Educação</item>
+        <item>Festas e Enventos</item>
+        <item>Gastronomia</item>
+        <item>Gráficas e Impressão</item>
+        <item>Lar</item>
+        <item>Marketing e Internet</item>
+        <item>Outros Proficionais</item>
+        <item>Outros Serviços</item>
+        <item>Saúde</item>
+        <item>Suporte Técnico</item>
+        <item>Veículos e Transportes</item>
+        <item>Vestuário</item>
+        <item>Viagens e Turismo</item>
+    </string-array>
+
+    <string-array name="sub_categorias_carros">
+        <item>Carros e caminhonetes</item>
+        <item>Motos</item>
+        <item>Camões</item>
+        <item>Carros antigos</item>
+        <item>Náutica</item>
+        <item>Ónibus</item>
+        <item>Veículos Pesados</item>
+        <item>Motorhomes</item>
+        <item>Consórcios</item>
+        <item>Outros</item>
+    </string-array>
+    <string name="title_activity_texts">Texts</string>
+    <string name="admob_banner_id">ca-app-pub-6402233568713542/2051953661</string>
+    <string name="categorias">Categorias</string>
+
+
+</resources>

@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="smartshop.co.mz.publicar.Promover">
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+           </LinearLayout>
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_margin="10dp"
+               app:cardCornerRadius="20sp"
+               android:layout_height="wrap_content">
+
+               <LinearLayout
+                   android:orientation="vertical"
+                   android:layout_width="match_parent"
+                   android:padding="10dp"
+                   android:layout_height="match_parent">
+                   <RelativeLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="Bacote Basico"
+                           android:textStyle="bold"
+                           android:textSize="18sp"
+                           android:textColor="@android:color/holo_orange_dark"
+                           android:layout_marginLeft="10dp"
+                           />
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_alignParentEnd="true"
+                           android:text="200MT"
+                           android:textColor="@android:color/holo_orange_dark"
+                           android:layout_marginRight="10sp"
+                           android:textStyle="bold"
+                           />
+                   </RelativeLayout>
+
+                   <LinearLayout
+                       android:orientation="vertical"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+
+                       <LinearLayout
+                           android:orientation="horizontal"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content">
+                           <ImageView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:src="@drawable/ic_check_gray"
+                               />
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="Destacar anucio"
+                               />
+                       </LinearLayout>
+
+                       <LinearLayout
+                           android:orientation="horizontal"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content">
+                           <ImageView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:src="@drawable/ic_check_gray"
+                               />
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="Duracao 7 dias"
+                               />
+                       </LinearLayout>
+
+                       <LinearLayout
+                           android:orientation="horizontal"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content">
+                           <ImageView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:src="@drawable/ic_check_gray"
+                               />
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="Pesquisa prioritaria"
+                               />
+                       </LinearLayout>
+
+
+
+                   </LinearLayout>
+
+
+
+                   <Button
+                       android:id="@+id/btn_comprar_basico"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Solicitar"
+                       android:background="@drawable/bg_close_btn"
+                       />
+
+               </LinearLayout>
+
+           </androidx.cardview.widget.CardView>
+
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_margin="10dp"
+               app:cardCornerRadius="20sp"
+               android:layout_height="wrap_content">
+
+               <LinearLayout
+                   android:orientation="vertical"
+                   android:layout_width="match_parent"
+                   android:padding="10dp"
+                   android:layout_height="match_parent">
+                   <RelativeLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="Bacote Pro"
+                           android:textStyle="bold"
+                           android:textSize="18sp"
+                           android:textColor="@android:color/holo_orange_dark"
+                           android:layout_marginLeft="10dp"
+                           />
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_alignParentEnd="true"
+                           android:text="300MT"
+                           android:textColor="@android:color/holo_orange_dark"
+                           android:layout_marginRight="10sp"
+                           android:textStyle="bold"
+                           />
+                   </RelativeLayout>
+
+                   <LinearLayout
+                       android:orientation="vertical"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+
+                       <LinearLayout
+                           android:orientation="horizontal"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content">
+                           <ImageView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:src="@drawable/ic_check_gray"
+                               />
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="Destacar anucio"
+                               />
+                       </LinearLayout>
+
+                       <LinearLayout
+                           android:orientation="horizontal"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content">
+                           <ImageView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:src="@drawable/ic_check_gray"
+                               />
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="Duracao 11 dias"
+                               />
+                       </LinearLayout>
+
+                       <LinearLayout
+                           android:orientation="horizontal"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content">
+                           <ImageView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:src="@drawable/ic_check_gray"
+                               />
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="pesquisa prioritaria"
+                               />
+                       </LinearLayout>
+
+
+
+                   </LinearLayout>
+
+
+
+                   <Button
+                       android:id="@+id/btn_comprar_pro"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Solicitar"
+                       android:background="@drawable/bg_close_btn"
+                       />
+
+               </LinearLayout>
+
+           </androidx.cardview.widget.CardView>
+
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_margin="10dp"
+               app:cardCornerRadius="20sp"
+               android:layout_height="wrap_content">
+
+               <LinearLayout
+                   android:orientation="vertical"
+                   android:layout_width="match_parent"
+                   android:padding="10dp"
+                   android:layout_height="match_parent">
+                   <RelativeLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="Bacote Exclusivo"
+                           android:textStyle="bold"
+                           android:textSize="18sp"
+                           android:textColor="@android:color/holo_orange_dark"
+                           android:layout_marginLeft="10dp"
+                           />
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_alignParentEnd="true"
+                           android:text="600MT"
+                           android:textColor="@android:color/holo_orange_dark"
+                           android:layout_marginRight="10sp"
+                           android:textStyle="bold"
+                           />
+                   </RelativeLayout>
+
+                   <LinearLayout
+                       android:orientation="vertical"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+
+                       <LinearLayout
+                           android:orientation="horizontal"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content">
+                           <ImageView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:src="@drawable/ic_check_gray"
+                               />
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="Destacar anucio"
+                               />
+                       </LinearLayout>
+
+                       <LinearLayout
+                           android:orientation="horizontal"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content">
+                           <ImageView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:src="@drawable/ic_check_gray"
+                               />
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="Duracao 30 dias"
+                               />
+                       </LinearLayout>
+
+                       <LinearLayout
+                           android:orientation="horizontal"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content">
+                           <ImageView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:src="@drawable/ic_check_gray"
+                               />
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="Pesquisa prioritaria"
+                               />
+                       </LinearLayout>
+                       <LinearLayout
+                           android:orientation="horizontal"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content">
+                           <ImageView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:src="@drawable/ic_check_gray"
+                               />
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="publicar imagem no slide da tela pricipal"
+                               />
+                       </LinearLayout>
+
+
+
+                   </LinearLayout>
+
+
+
+                   <Button
+                       android:id="@+id/btn_comprar_exclusivo"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Solicitar"
+                       android:background="@drawable/bg_close_btn"
+                       />
+
+               </LinearLayout>
+
+           </androidx.cardview.widget.CardView>
+
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+           </LinearLayout>
+
+       </LinearLayout>
+   </ScrollView>
+</LinearLayout>
