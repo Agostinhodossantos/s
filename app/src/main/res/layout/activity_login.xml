@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="smartshop.co.mz.Login">
+    tools:context="smartshop.co.mz.ui.Login">
 
     <LinearLayout
         android:orientation="vertical"

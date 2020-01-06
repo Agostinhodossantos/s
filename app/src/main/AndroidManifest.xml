@@ -9,6 +9,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
@@ -21,14 +22,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CategoriaResult"
-            android:screenOrientation="userPortrait"
-            ></activity>
+        <activity android:name=".ui.GerirProduto"></activity>
+        <activity android:name=".ui.PacotesLojas" />
+        <activity android:name=".ui.MInhaLojaList" />
+        <activity android:name=".ui.Comentar" />
+        <activity android:name=".ui.MinhaLoja" />
+        <activity
+            android:name=".ui.SmartWallet"
+            android:label="@string/title_activity_smart_wallet"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".criar_loja.Infoloja_0" />
+        <activity android:name=".criar_loja.Infoloja_2" />
+        <activity android:name=".criar_loja.Infoloja_1" />
+        <activity android:name=".ui.Comprar" />
+        <activity android:name=".ui.Loja_Produto" />
+        <activity android:name=".ui.LojasOficias" />
+        <activity android:name=".ui.Loja" />
+        <activity
+            android:name=".ui.CategoriaResult"
+            android:screenOrientation="userPortrait" />
         <activity
             android:name=".publicar.Editar"
             android:screenOrientation="userPortrait" />
         <activity
-            android:name=".Filtro"
+            android:name=".ui.Filtro"
             android:screenOrientation="userPortrait" />
         <activity
             android:name=".chat.Chat"
@@ -43,22 +60,22 @@
             android:name=".publicar.pick_img.MainActivity"
             android:screenOrientation="userPortrait" />
         <activity
-            android:name=".Sobre"
+            android:name=".ui.Sobre"
             android:screenOrientation="userPortrait" />
         <activity
-            android:name=".Donativo"
+            android:name=".ui.Notificacoes"
             android:screenOrientation="userPortrait" />
         <activity
-            android:name=".PesquisarCategoria"
+            android:name=".ui.PesquisarCategoria"
             android:screenOrientation="userPortrait" />
         <activity
             android:name=".publicar.EscolherImagem"
             android:configChanges="orientation|screenSize" />
         <activity
-            android:name=".Login"
+            android:name=".ui.Login"
             android:screenOrientation="userPortrait" />
         <activity
-            android:name=".ImagemTelaCheia"
+            android:name=".ui.ImagemTelaCheia"
             android:screenOrientation="userPortrait" />
         <activity
             android:name=".publicar.Promover"
@@ -66,8 +83,9 @@
         <activity
             android:name=".publicar.InformacoesPublicar"
             android:screenOrientation="userPortrait" />
+        <activity android:name=".publicar.InformacoesPublicar_na_loja"/>
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:screenOrientation="userPortrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
@@ -79,16 +97,16 @@
             android:value="kl" />
 
         <activity
-            android:name=".Pesquisar"
+            android:name=".ui.Pesquisar"
             android:screenOrientation="userPortrait" />
         <activity
-            android:name=".MainLoja"
+            android:name=".ui.MainLoja"
             android:screenOrientation="userPortrait" />
         <activity
-            android:name=".MapsActivity"
+            android:name=".ui.MapsActivity"
             android:screenOrientation="userPortrait" />
         <activity
-            android:name=".Intro"
+            android:name=".ui.Intro"
             android:label="@string/app_name"
             android:screenOrientation="userPortrait"
             android:theme="@style/AppTheme.NoActionBar">
@@ -102,25 +120,26 @@
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-6402233568713542~2223527837" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
 
-        <meta-data android:name="com.facebook.sdk.ApplicationId"
-            android:value="@string/facebook_app_id"/>
-
-        <activity android:name="com.facebook.FacebookActivity"
-            android:configChanges=
-                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:label="@string/app_name" />
         <activity
             android:name="com.facebook.CustomTabActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
+
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
+
                 <data android:scheme="@string/fb_login_protocol_scheme" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>

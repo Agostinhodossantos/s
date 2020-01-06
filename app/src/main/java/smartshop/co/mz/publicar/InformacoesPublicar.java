@@ -1,12 +1,10 @@
 package smartshop.co.mz.publicar;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -14,7 +12,6 @@ import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -27,7 +24,6 @@ import android.widget.Toast;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.material.textfield.TextInputEditText;
-import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -44,20 +40,16 @@ import java.util.Date;
 import java.util.List;
 import java.util.UUID;
 
-import javax.crypto.Mac;
-
-import smartshop.co.mz.Login;
-import smartshop.co.mz.MainActivity;
+import smartshop.co.mz.ui.Login;
+import smartshop.co.mz.ui.MainActivity;
 import smartshop.co.mz.R;
-import smartshop.co.mz.VerificarCampos;
+import smartshop.co.mz.ui.VerificarCampos;
 import smartshop.co.mz.model.Descricao;
 import smartshop.co.mz.model.DescricaoProduto;
 import smartshop.co.mz.model.Produto;
 import smartshop.co.mz.model.ProdutoImagem;
-import smartshop.co.mz.model.dataHelp;
 import smartshop.co.mz.publicar.pick_img.model.Picture;
 import smartshop.co.mz.rv.CustomAdapter;
-import smartshop.co.mz.rv.Rv_produtos;
 
 public class InformacoesPublicar extends AppCompatActivity {
 
@@ -1024,7 +1016,7 @@ public class InformacoesPublicar extends AppCompatActivity {
          WebcamseÁudioparaPC        = new ArrayList<>();
          EventosEsportivos          = new ArrayList<>();
          EventosEsportivos.add( new Descricao("Local" ,""));
-         EventosEsportivos.add( new Descricao("Data" ,""));
+         EventosEsportivos.add( new Descricao("DataM" ,""));
          Exposição                  = new ArrayList<>();
          Ingressos                  = new ArrayList<>();
          Ingressos = EventosEsportivos;
@@ -1293,7 +1285,6 @@ public class InformacoesPublicar extends AppCompatActivity {
 
             for (int i = 0; i < picturesSelected.size() ; i++){
 
-                Toast.makeText(this, ""+i, Toast.LENGTH_SHORT).show();
                 if (i == 11){
                     break;
                 }
@@ -1685,7 +1676,7 @@ public class InformacoesPublicar extends AppCompatActivity {
 
     private void verificarCategoria() {
 
-        Toast.makeText(this, ""+sub_categoria, Toast.LENGTH_SHORT).show();
+
         switch (sub_categoria){
             case "Aces de Carros e Caminhonetes":
                 descricaoList = AcesdeCarroseCaminhonetes;
@@ -2585,7 +2576,7 @@ public class InformacoesPublicar extends AppCompatActivity {
             case "Energia Eletrica":
                 descricaoList = EnergiaEletrica;
                 break;
-            case "Loja de Tintas":
+            case "LojaModel de Tintas":
                 descricaoList = LojadeTintas;
                 break;
 

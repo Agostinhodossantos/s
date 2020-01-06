@@ -11,9 +11,19 @@
             android:title="Publicar anúncio" />
 
         <item
+            android:icon="@drawable/ic_business_center"
+            android:id="@+id/lojas_oficias"
+            android:title="Lojas Oficias" />
+
+        <item
             android:icon="@drawable/ic_filter_list"
             android:id="@+id/categoria"
             android:title="@string/categorias" />
+
+        <item
+            android:icon="@drawable/ic_credit_card_black"
+            android:id="@+id/smart_wallet"
+            android:title="Smart Wallet" />
 
         <item
             android:icon="@drawable/ic_share_black_24dp"
@@ -22,12 +32,12 @@
 
     </group>
 
-    <item android:title="@string/ajuda_nos">
+    <item android:title="Mais">
         <menu>
             <item
-                android:icon="@drawable/ic_trending_up_black_24dp"
+                android:icon="@drawable/ic_notifications"
                 android:id="@+id/doar"
-                android:title="@string/donativo" />
+                android:title="@string/notificacoes" />
             <item
                 android:icon="@drawable/ic_contact_mail_black_24dp"
                 android:id="@+id/contacto"

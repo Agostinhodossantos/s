@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.textfield.TextInputEditText;
 
 import smartshop.co.mz.R;
-import smartshop.co.mz.VerificarCampos;
+import smartshop.co.mz.ui.VerificarCampos;
 
 public class Chat extends AppCompatActivity {
 

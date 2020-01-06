@@ -19,7 +19,7 @@ import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 import java.util.List;
 
-import smartshop.co.mz.MainLoja;
+import smartshop.co.mz.ui.MainLoja;
 import smartshop.co.mz.R;
 import smartshop.co.mz.model.Produto;
 

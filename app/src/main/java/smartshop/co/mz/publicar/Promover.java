@@ -21,9 +21,7 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.UUID;
 
-import smartshop.co.mz.MainLoja;
 import smartshop.co.mz.R;
 import smartshop.co.mz.model.Produto;
 

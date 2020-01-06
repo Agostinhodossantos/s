@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ImagemTelaCheia">
+    tools:context=".ui.ImagemTelaCheia">
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/vp_publicidade_id"
         android:layout_width="match_parent"

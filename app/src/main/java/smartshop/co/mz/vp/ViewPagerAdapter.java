@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
@@ -16,8 +15,7 @@ import com.squareup.picasso.Picasso;
 import java.io.Serializable;
 import java.util.List;
 
-import smartshop.co.mz.ImagemTelaCheia;
-import smartshop.co.mz.MainLoja;
+import smartshop.co.mz.ui.ImagemTelaCheia;
 import smartshop.co.mz.model.ProdutoImagem;
 
 public class ViewPagerAdapter extends PagerAdapter {

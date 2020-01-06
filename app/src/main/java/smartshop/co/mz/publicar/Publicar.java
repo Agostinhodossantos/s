@@ -24,12 +24,11 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 
-import smartshop.co.mz.Login;
+import smartshop.co.mz.ui.Login;
 import smartshop.co.mz.R;
 import smartshop.co.mz.model.DadosProduto;
 import smartshop.co.mz.model.Produto;
 import smartshop.co.mz.publicar.pick_img.MainActivity;
-import smartshop.co.mz.rv.Rv_produtos;
 import smartshop.co.mz.rv.Rv_produtos_user;
 
 public class Publicar extends AppCompatActivity {
@@ -61,10 +60,12 @@ public class Publicar extends AppCompatActivity {
         rv_publicacoes = findViewById(R.id.rv_publicacoes);
 
 
+
         btn_publicar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent  =  new Intent(Publicar.this , MainActivity.class);
+                intent.putExtra("publicar" , "0");
                 startActivity(intent);
             }
         });

@@ -35,6 +35,7 @@ import java.util.ArrayList;
 
 import smartshop.co.mz.R;
 import smartshop.co.mz.publicar.InformacoesPublicar;
+import smartshop.co.mz.publicar.InformacoesPublicar_na_loja;
 import smartshop.co.mz.publicar.pick_img.adapters.GalleryItemAdapter;
 import smartshop.co.mz.publicar.pick_img.model.Picture;
 import smartshop.co.mz.publicar.pick_img.utils.ConstantDataManager;
@@ -50,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
     private Button imageViewButtonSend;
     private TextView textViewSelectedCount;
     private ConstraintLayout constraintLayoutSend;
-
+    private String value;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,16 +63,34 @@ public class MainActivity extends AppCompatActivity {
         textViewSelectedCount = findViewById(R.id.textViewSeletedCount);
         constraintLayoutSend = findViewById(R.id.layoutSend);
 
-
+        Intent intent = getIntent();
+        if (intent != null){
+            value = intent.getStringExtra("publicar");
+        }
         Button imageViewSendDetail = findViewById(R.id.button_send);
         imageViewSendDetail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intentDetail = new Intent(MainActivity.this, InformacoesPublicar.class);
 
-                ArrayList<Picture> picturesSelected = adapter.getAllPictureSelected();
-                intentDetail.putParcelableArrayListExtra("listpicture", picturesSelected);
-                startActivity(intentDetail);
+
+                if (value.equals("0")){
+                    Intent intentDetail = new Intent(MainActivity.this, InformacoesPublicar.class);
+
+                    ArrayList<Picture> picturesSelected = adapter.getAllPictureSelected();
+                    intentDetail.putParcelableArrayListExtra("listpicture", picturesSelected);
+                    intentDetail.putExtra("publicar" , value);
+                    startActivity(intentDetail);
+                }else{
+
+                    Intent intentDetail = new Intent(MainActivity.this, InformacoesPublicar_na_loja.class);
+
+                    ArrayList<Picture> picturesSelected = adapter.getAllPictureSelected();
+                    intentDetail.putParcelableArrayListExtra("listpicture", picturesSelected);
+                    intentDetail.putExtra("publicar" , value);
+                    startActivity(intentDetail);
+
+                }
+
 
             }
         });

@@ -16,11 +16,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.squareup.picasso.Picasso;
 
-import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.List;
 
-import smartshop.co.mz.MainLoja;
+import smartshop.co.mz.ui.Loja_Produto;
 import smartshop.co.mz.R;
 import smartshop.co.mz.model.Produto;
 
@@ -89,7 +88,7 @@ public class Rv_produtos extends RecyclerView.Adapter<Rv_produtos.MyViewHoder> i
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(mContext , MainLoja.class);
+                Intent intent = new Intent(mContext , Loja_Produto.class);
                 intent.putExtra("id_produto" ,mData.get(position).getUid());
                 intent.putExtra("id_user" , mData.get(position).getIdUser());
                 intent.putExtra("preco" , mData.get(position).getPreco());

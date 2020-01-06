@@ -12,12 +12,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.github.aakira.expandablelayout.ExpandableRelativeLayout;
-import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -29,16 +27,13 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.UUID;
 
-import smartshop.co.mz.MainActivity;
-import smartshop.co.mz.MainLoja;
+import smartshop.co.mz.ui.MainActivity;
+import smartshop.co.mz.ui.MainLoja;
 import smartshop.co.mz.R;
 import smartshop.co.mz.model.Produto;
 import smartshop.co.mz.model.ProdutoImagem;
-import smartshop.co.mz.model.Usuario;
 import smartshop.co.mz.publicar.Editar;
-import smartshop.co.mz.publicar.InformacoesPublicar;
 import smartshop.co.mz.publicar.Promover;
 
 

@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     style="@style/Theme.AppCompat.Light.NoActionBar"
     android:layout_height="match_parent"
-    tools:context="smartshop.co.mz.MainLoja">
+    tools:context="smartshop.co.mz.ui.MainLoja">
     <LinearLayout
         android:orientation="vertical"
         android:layout_weight="1"

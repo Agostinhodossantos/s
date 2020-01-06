@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="smartshop.co.mz.PesquisarCategoria">
+    tools:context="smartshop.co.mz.ui.PesquisarCategoria">
 
     <LinearLayout
         android:layout_width="match_parent"

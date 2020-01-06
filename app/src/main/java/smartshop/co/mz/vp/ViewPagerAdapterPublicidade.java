@@ -2,7 +2,6 @@ package smartshop.co.mz.vp;
 
 import android.content.Context;
 import android.content.Intent;
-import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -18,14 +17,10 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.squareup.picasso.Picasso;
 
-import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
-import smartshop.co.mz.ImagemTelaCheia;
-import smartshop.co.mz.MainActivity;
-import smartshop.co.mz.MainLoja;
+import smartshop.co.mz.ui.MainLoja;
 import smartshop.co.mz.model.Produto;
 import smartshop.co.mz.model.ProdutoImagem;
 

@@ -4,10 +4,10 @@ apply plugin: 'com.google.gms.google-services'
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
-    lintOptions{
+    lintOptions {
         checkReleaseBuilds false
         abortOnError false
-        disable 'TypographyFractions','TypographyQuotes'
+        disable 'TypographyFractions', 'TypographyQuotes'
     }
 
 //    compileOptions {
@@ -18,10 +18,10 @@ android {
         applicationId "smartshop.co.mz"
         minSdkVersion 17
         targetSdkVersion 29
-        versionCode 5
-        versionName "5.0"
+        versionCode 7
+        versionName "7.0"
         multiDexEnabled true
-        resConfigs "en" ,"pt"
+        resConfigs "en", "pt"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -53,6 +53,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-messaging:19.0.0'
 
 
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
